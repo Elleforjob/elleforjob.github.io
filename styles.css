@@ -1,0 +1,230 @@
+body {
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    font-family:arial, sans-serif;
+  
+  }
+  header {
+    display:flex;
+    background-image: url('/image/Rectangle7.png');
+    background-position:center;
+    background-size: 467px 153px;
+    width: 467px;
+    height: 153px;
+    width: 100%;
+  }
+.box-container {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+
+.box {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+text-align: center;
+
+}
+
+.box1 {
+background-image: url('/image/Group\ 11.png');
+width: 100px;
+height: 70px;
+top: 186px;
+left: 88px;
+font-size: 9px;
+}
+
+.box2 {
+background-color:green;
+width:70px;
+height: 100px;
+top: 174px;
+left: 198px;
+font-size:9px;
+
+}
+
+.box3 {
+background-color:yellow;
+width: 100px;
+height: 70px;
+top: 186px;
+left: 88px;
+font-size: 9px;
+}
+.text {
+margin-top:1.5cm;
+text-align: center;
+align-items: center;
+position: relative;
+}
+
+.box-container2 {
+display: grid;
+justify-content: center;
+gap: 10px;
+grid-template-columns: repeat(3,100px);
+margin-top: 25px;
+}
+
+.boxx {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+.box-1 {
+background-color: #ff9999;
+width: 100px;
+height: 105px;
+top: 353px;
+left: 293px;
+}
+.box-2 {
+background-color: #99ff99;
+width: 100px;
+height: 105px;
+top: 353px;
+left: 293px;
+}
+.box-3 {
+background-color: #9999ff;
+width: 100px;
+height: 105px;
+top: 353px;
+left: 293px;
+}
+.box-4 {
+background-color: #ffcc99;
+width: 100px;
+height: 105px;
+top: 353px;
+left: 293px;
+}
+.box-5 {
+background-color: #cc99ff;
+width: 100px;
+height: 105px;
+top: 353px;
+left: 293px;
+}
+.box-6 {
+background-color: #ffff99;
+width: 100px;
+height: 105px;
+top: 353px;
+left: 293px;
+}
+.footer1 {
+display: flex;
+justify-content: center;
+background-color:black;
+width: 467px;
+height:96px;
+top: 608px;
+padding: 20px;
+margin-top: 20px;
+width: 100%;
+gap:20px;
+}
+.footer-kolom{
+color: white;
+font-size:6px;
+justify-content:center;
+margin-top:20px;
+}
+
+.judul-footer{
+color:white;
+font-size:20px;
+margin: 10px;
+font-weight: bold;
+}
+.box33 {
+width: 133px;
+height: 34px;
+top: 724px;
+left:92px;
+justify-content:center;
+align-items: center;
+}
+.add-tulisan-logo {
+display: grid;
+grid-template-columns: repeat(2,150px);
+gap: 25px;
+box-sizing: border-box;
+justify-content: center;
+margin-top: 10px;
+}
+
+.box-logo {
+position: absolute;
+width:18px;
+height: 18px;
+display : flex;
+}
+
+.box-text {
+margin-left: 20px;
+font-size: 7px;
+text-align: justify;
+}
+
+.boxsatu {
+background-color: yellow;
+width:167px;
+height: 34px;
+}
+.boxdua {
+background-color: yellow;
+width:167px;
+height: 34px;
+}
+.boxtiga {
+background-color: yellow;
+width:167px;
+height: 34px;
+}
+
+.boxempat {
+background-color: yellow;
+width:167px;
+height: 34px;
+}
+
+.footer {
+display: flex;
+background-color: green;
+width: 100%;
+position: relative;
+
+}
+.footer-content {
+background-color:#ffcc99; 
+display: flex;
+justify-content: center;
+gap: 20px;
+width: 467px;
+height: 120px;
+margin-top: 10px;
+width: 100%;
+}
+.footer-column {
+text-align: center;
+padding:10px;
+font-size: 10px;
+}
+.footer-title {
+font-weight: bold;
+margin-bottom: 10px;
+}
